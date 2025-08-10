@@ -77,13 +77,18 @@ let config = {
 				customCommand: {},  // Optional, See "Using Custom Commands" below
 				showModuleApiMenu: true, // Optional, Enable the Module Controls menu
 				secureEndpoints: true, // Optional, See API/README.md
-				apiKey: '80aa9d8c2ce74fa6b658605dd5651cd9'
+				apiKey: '0b903069db95454fabd1dc0deea5d5f0'
 				// uncomment any of the lines below if you're gonna use it
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
 			}
 		},{
+			module: 'MMM-TouchNavigation',
+			config: {
+				// See 'Configuration options' for more information.
+			}
+    	},{
 			module: "compliments",
 			position: "lower_third"
 		},
