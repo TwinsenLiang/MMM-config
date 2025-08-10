@@ -51,14 +51,14 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "中国节日",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://www.calendarlabs.com/ical-calendar/ics/40/China_Holidays.ics"
+						url: "https://calendars.icloud.com/holidays/cn_zh.ics"
 					}
 				]
 			}
@@ -80,7 +80,7 @@ let config = {
 		{
 			module: "weather",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "最近天气",
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
