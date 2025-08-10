@@ -62,6 +62,12 @@ let config = {
 					}
 				]
 			}
+		},{
+  			module: 'MMM-SmartTouch', 
+			position: 'bottom_center',    // This can be any of the regions.(bottom-center Recommended)
+			config:{ 
+				// None configuration options defined 
+			}
 		},
 		{
 			module: "compliments",
