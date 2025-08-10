@@ -58,7 +58,7 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+						url: "https://www.calendarlabs.com/ical-calendar/ics/40/China_Holidays.ics"
 					}
 				]
 			}
@@ -73,8 +73,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 22.5,
+				lon: 114
 			}
 		},
 		{
@@ -94,8 +94,8 @@ let config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "中国新闻网",
+						url: "http://www.chinanews.com/rss/china.xml"
 					}
 				],
 				showSourceTitle: true,
