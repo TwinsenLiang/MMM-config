@@ -1,4 +1,3 @@
 # MMM-config
-# MMM-config
-# MMM-config
-# MMM-config
+
+魔镜的中文调试
