@@ -95,7 +95,7 @@ let config = {
 				// classes: {} // Optional, See "Custom Classes" below
 				address : '0.0.0.0',
 				port: 8080,
-				ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.0.42", "::ffff:192.168.0.50"],
+				ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.50.118"],
 				password: "mirror",
 				darkMode: true,
 				language: "en",
