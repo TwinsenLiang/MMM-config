@@ -47,7 +47,18 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
+			config: {
+				timeFormat: 24,
+				showPeriod: true,
+				showPeriodUpper: true,
+				// 自定义问候语（中文）
+				timeText: "时间",
+				greetingMorning: "早上好",
+				greetingAfternoon: "下午好",
+				greetingEvening: "晚上好",
+				greetingNight: "晚安"
+			}
 		},
 		{
 			module: "calendar",
@@ -90,7 +101,15 @@ let config = {
 			}
     	},{
 			module: "compliments",
-			position: "lower_third"
+			position: "lower_third",
+			config: {
+				compliments: {
+					morning: ["早上好，主人！", "早上好，亲爱的!", "新的一天开始了！"],
+					afternoon: ["你好，亲爱的！", "你看起来不错！", "下午好，我的主人！"],
+					evening: ["今天过得怎么样？", "你看起来不错！", "晚上好，主人！"]
+				},
+				updateInterval: 30000
+			}
 		},
 		{
 			module: "weather",
