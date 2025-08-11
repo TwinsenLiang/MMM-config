@@ -79,8 +79,9 @@ let config = {
 			config:{ 
 				// None configuration options defined 
 			}
-		},  {
+		}, {
         module: 'MMM-Remote-Control',
+		position: "top_right",
 			// uncomment the following line to show the URL of the remote control on the mirror
 			// position: 'bottom_left',
 			// you can hide this module afterwards from the remote control itself
@@ -93,6 +94,8 @@ let config = {
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
+				showButtons: ["SHUTDOWN", "RESTART", "REFRESH"],
+				darkMode: true
 			}
 		},{
 			module: 'MMM-TouchNavigation',
