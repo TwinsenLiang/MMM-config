@@ -81,7 +81,6 @@ let config = {
 			}
 		}, {
         module: 'MMM-Remote-Control',
-		position: "top_right",
 			// uncomment the following line to show the URL of the remote control on the mirror
 			// position: 'bottom_left',
 			// you can hide this module afterwards from the remote control itself
@@ -89,12 +88,13 @@ let config = {
 				customCommand: {},  // Optional, See "Using Custom Commands" below
 				showModuleApiMenu: true, // Optional, Enable the Module Controls menu
 				secureEndpoints: true, // Optional, See API/README.md
+				showButtons: ["SHUTDOWN", "RESTART", "REFRESH"],
 				apiKey: '0c4dfecf39d545e9a6258534aa28d866'
 				// uncomment any of the lines below if you're gonna use it
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
-				showButtons: ["SHUTDOWN", "RESTART", "REFRESH"]
+
 			}
 		},{
 			module: 'MMM-TouchNavigation',
