@@ -93,7 +93,9 @@ let config = {
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
-				port: 9090,
+				address : '0.0.0.0',
+				port: 8080,
+				ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.0.42", "::ffff:192.168.0.50"],
 				password: "mirror",
 				darkMode: true,
 				language: "en",
