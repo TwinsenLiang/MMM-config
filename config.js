@@ -88,7 +88,7 @@ let config = {
 				customCommand: {},  // Optional, See "Using Custom Commands" below
 				showModuleApiMenu: true, // Optional, Enable the Module Controls menu
 				secureEndpoints: true, // Optional, See API/README.md
-				apiKey: '0b903069db95454fabd1dc0deea5d5f0'
+				apiKey: '0c4dfecf39d545e9a6258534aa28d866'
 				// uncomment any of the lines below if you're gonna use it
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
@@ -108,7 +108,8 @@ let config = {
 					afternoon: ["你好，亲爱的！", "你看起来不错！", "下午好，我的主人！"],
 					evening: ["今天过得怎么样？", "你看起来不错！", "晚上好，主人！"]
 				},
-				updateInterval: 30000
+				updateInterval: 30000,
+				classes:thin
 			}
 		},
 		{
