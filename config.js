@@ -93,7 +93,7 @@ let config = {
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
-				port: 8080,
+				port: 9090,
 				password: "mirror",
 				darkMode: true,
 				language: "en",
@@ -101,8 +101,7 @@ let config = {
 				allowModuleControl: true,
 					modules: {
 					"clock": {
-						"show": true,
-						"position": "top_left"
+						"show": true
 					},
 					"calendar": {
 						"show": true
