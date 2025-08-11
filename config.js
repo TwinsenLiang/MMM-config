@@ -17,7 +17,7 @@ let config = {
 	port: 8080,
 	basePath: "/",	// The URL path where MagicMirror² is hosted. If you are using a Reverse proxy
 									// you must set the sub path here. basePath must end with a /
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],	// Set [] to allow all IP addresses
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::1"，"::ffff:192.168.50.118"],	// Set [] to allow all IP addresses
 									// or add a specific IPv4 of 192.168.1.5 :
 									// ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
 									// or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
@@ -78,37 +78,6 @@ let config = {
 			position: 'bottom_center',    // This can be any of the regions.(bottom-center Recommended)
 			config:{ 
 				// None configuration options defined 
-			}
-		}, {
-        module: 'MMM-Remote-Control',
-			// uncomment the following line to show the URL of the remote control on the mirror
-			// position: 'bottom_left',
-			// you can hide this module afterwards from the remote control itself
-			config: {
-				customCommand: {},  // Optional, See "Using Custom Commands" below
-				showModuleApiMenu: true, // Optional, Enable the Module Controls menu
-				secureEndpoints: true, // Optional, See API/README.md
-				apiKey: '0c4dfecf39d545e9a6258534aa28d866',
-				// uncomment any of the lines below if you're gonna use it
-				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
-				// apiKey: "", // Optional, See API/README.md for details
-				// classes: {} // Optional, See "Custom Classes" below
-				address : '0.0.0.0',
-				port: 8080,
-				ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.50.118"],
-				password: "mirror",
-				darkMode: true,
-				language: "en",
-				showButtons: ["SHUTDOWN", "RESTART", "REFRESH", "MONITOR", "CONFIG"],
-				allowModuleControl: true,
-					modules: {
-					"clock": {
-						"show": true
-					},
-					"calendar": {
-						"show": true
-					}
-				}
 			}
 		},{
 			module: 'MMM-TouchNavigation',
