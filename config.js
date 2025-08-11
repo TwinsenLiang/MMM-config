@@ -94,8 +94,7 @@ let config = {
 				// customMenu: "custom_menu.json", // Optional, See "Custom Menu Items" below
 				// apiKey: "", // Optional, See API/README.md for details
 				// classes: {} // Optional, See "Custom Classes" below
-				showButtons: ["SHUTDOWN", "RESTART", "REFRESH"],
-				darkMode: true
+				showButtons: ["SHUTDOWN", "RESTART", "REFRESH"]
 			}
 		},{
 			module: 'MMM-TouchNavigation',
